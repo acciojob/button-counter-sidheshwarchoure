@@ -1,7 +1,3 @@
-
-//import React from "react";
-import './../styles/App.css';
-
 import React, { useState } from 'react';
 
 
@@ -14,9 +10,9 @@ import React, { useState } from 'react';
   return (
     <div>
         {/* Do not remove the main div */}
-      <p>Button clicked {count} times</p>
+        <p>Button clicked {count} times</p>
       <button onClick={handleClick}>Click me</button>
-    </div>
+  </div>  
   )
 }
 
